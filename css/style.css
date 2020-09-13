@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   padding: 10px 0;
+   padding: 9px 0;
 }
  
 .logo{
@@ -50,7 +50,7 @@ body{
   width: 80px;
   height:80px;
   background-image: url(../img/logo.svg);
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .header-info span{
@@ -58,21 +58,27 @@ body{
 }
 
 .header-info button{
-    font-size: 14px;
-    border-radius: 10px;
+    font-size: 13px;
+    border-radius: 20px;
     border: 2px solid #66c05d;
     background-color: transparent;
-    margin-left: 20px;
+    margin-left: 36px;
+    padding: 10px 26px;
   }
 
-  .header-bottom{
-      padding: 15px 0;
+.header-bottom{
+      padding: 22px 0;
   }
 
 
 .header-bottom .nav{
     font-size: 16px;
     margin:0;
+}
+
+.header-bottom .nav li{
+   margin-left: 20px;
+   margin-right: 20px;
 }
 
 hr{
@@ -86,7 +92,8 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 150px 0;
+    padding-top: 170px;
+    padding-bottom: 210px;
     color: white;
 }
 .banner p {
@@ -104,5 +111,5 @@ hr{
     text-decoration: none;
     border: 2px solid white;
     border-radius: 20px;
-    padding: 10px 15px;
+    padding: 10px 35px;
 }
