@@ -13,10 +13,12 @@ body{
    display: flex; 
    justify-content: center;
    list-style-type: none;
+   padding: 4px 0;
 }
 
-.nav li{
-    margin:0 0.5rem;
+.nav  li{
+    margin-left: 15px;
+    margin-right: 17px;
 }
 
 .nav li a{
@@ -25,7 +27,7 @@ body{
 } 
 
 .header {
-    
+    padding-top: 10px;
     background-color: white;
 }
 .header-top {
@@ -41,6 +43,7 @@ body{
    font-weight: 700;
    display: flex;
    align-items: center;
+   letter-spacing: 4px;
 }
 .logo-img{
   display: block;  
