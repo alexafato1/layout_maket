@@ -64,7 +64,14 @@ body{
     background-color: transparent;
     margin-left: 36px;
     padding: 10px 26px;
+    transition: 0.2s ease;
+    cursor: pointer;
   }
+
+
+.header-info button:hover{
+  background-color: #66c05d;
+}
 
 .header-bottom{
       padding: 22px 0;
@@ -112,4 +119,9 @@ hr{
     border: 2px solid white;
     border-radius: 20px;
     padding: 10px 35px;
+    transition: 0.2s ease;
+}
+.btn:hover{
+ background-color: white;
+ color:#66c05d;
 }
