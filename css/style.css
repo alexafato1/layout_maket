@@ -8,8 +8,8 @@ a {
   text-decoration: none;
 }
 .wrapper{
-  max-width: 1100px; 
-  padding: 0 15px; 
+  max-width: 1110px; 
+  padding: 0 ; 
   margin: 0 auto;
 }
 .nav{
@@ -127,16 +127,16 @@ hr{
 }
 
 .btn{
-    color: white;
+    color: #443020;
     text-decoration: none;
-    border: 2px solid white;
+    background-color:  #efefef;
     border-radius: 20px;
     padding: 10px 35px;
     transition: 0.2s ease;
 }
 .btn:hover{
- background-color: white;
- color:#d5921a;
+ background-color:#d5921a;
+ color:white;
 }
 
 .bg-white{
@@ -181,6 +181,8 @@ hr{
 .grid-item-catalog{
   text-align: center;
   padding-bottom: 30px;
+  
+  
 }
 
 .grid-item-catalog .bg-white{
@@ -189,6 +191,7 @@ hr{
 
 .grid-title{
   padding: 10px 0 0 0;
+  min-width: 150px;
 }
 
 .grid-price{
@@ -199,25 +202,40 @@ hr{
 .grid-btn {
   font-size: 13px;
   border-radius: 20px;
-  border: 2px solid ;
+  
   background-color:#d5921a;
   color:white;
   padding: 10px 34px;
   transition: 0.2s ease;
   cursor: pointer;
+ 
   
 }
+.grid-btn:hover {
+   background-color:white;
+   border: 1px solid #d5921a;
+   color:#d5921a;
+ }
+
 .bg-brown{
   background-color: #443020;
   color: #f9f4e6;
-  padding: 15px 30px;
+  padding:  15px 30px 30px 30px;
   display: flex;
   justify-content: space-between;
 }
+
+
 .bg-brown h3{
   font-size: 18px;
   font-weight: 500;
   padding-top: 5px;
+}
+
+.bg-brown-item img{
+  object-fit: cover;
+  width: 135px;
+  padding: 40px  13px 0  0;
 }
 
 .bg-brown input{
@@ -225,31 +243,119 @@ hr{
   border: 2px solid white;
   background-color: transparent;
   padding: 10px;
-  border-radius: 20px;;
+  border-radius: 20px;
+   width: 200px;
 }
 .bg-brown p{
   line-height: 20px;
-  width:  200px;
+  width:  180px;
   padding-bottom: 10px;;
 }
+
 .bg-brown p:last-child{
    padding: 10px 0;
 }
 
-.bg-brown-item img{
-  object-fit: cover;
-  width: 100px;
-  
-}
+
 .bg-brown-item  a{
   display: block;
   margin-top: 5px ;
- 
-  
-}
+ }
 
 .grid-item-left,
 .grid-item-right{
   margin-top: 50px;
   
+}
+
+.footer-info button{
+  font-size: 13px;
+    border-radius: 20px;
+    background-color:#d5921a;
+    border: 2px solid #d5921a;
+    color: #f9f4e6;
+    margin-left: 36px;
+    padding: 10px 26px;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+}
+
+.footer-info button:hover{
+  color: #443020;
+  border: 2px solid #d5921a;
+    background-color: transparent;
+}
+
+
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  color: #443020;
+  padding: 15px 0;
+  
+}
+
+.footer-bottom p{
+  margin: 0;
+}
+
+.social_link{
+  border: 2px solid #443020;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 0;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+ 
+}
+
+.social-item{
+  margin-right: 20px;;
+}
+
+.social-youtube{
+  background-image: url('../img/logo_youtube.svg');
+}
+
+.social-vk{
+  background-image: url('../img/logo_vk.svg');
+}
+.social-fb{
+  background-image: url('../img/logo_fb.svg');
+}
+
+.social-insta{
+  background-image: url('../img/logo_insta.svg');
+}
+
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 140px;
+  
+}
+
+.footer-top-item{
+  padding: 20px 0;
+}
+
+.footer-info span {
+  margin-left: 36px;
+  font-size: 16x;
+}
+
+.footer-bottom{
+  height: 50px;
 }
